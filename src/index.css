@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #a3b8d1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+/* Container Styles */
+.login-container {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adjusted box shadow */
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 2px solid #3498db;
+  box-sizing: border-box;
+  color: #555;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Added box shadow to input elements */
+}
+
+/* Placeholder text color */
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #999;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+/* Navigation Link Styles */
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
